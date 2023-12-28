@@ -1,0 +1,26 @@
+# CSS Cheat Sheet
+
+## References:
+* https://css-tricks.com/almanac/selectors/
+* https://www.w3schools.com/css/css_selectors.asp
+
+Cascading Style Sheet at the most basic level it indicates that the order of the css rules matter.
+
+
+- .class
+- #id
+- \* =>  All elements
+- element
+- element, element
+- element element
+- element > element
+- element + element
+- :hover
+- :last-child
+- :first-child
+- !important (not recommended)
+
+What selectors win out in the cascade depends on:
+- Specificity (The more specific something the more lucly it will win out)
+- Importance
+- Source Order

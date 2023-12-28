@@ -1,0 +1,67 @@
+/*== CSS Syntax ===
+
+selector {
+  Property: value;
+}
+
+*/
+
+/*== GOOGLR Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+  text-align: right;
+}
+
+body{
+  background-image: url(./img/kateryna-hliznitsova-uEVDy2RYcPw-unsplash.jpg);
+  background-size: cover;
+}
+li {
+  list-style: none;
+  color: aliceblue;
+  display: inline-block;
+}
+h2 {
+  color: #042c89;
+}
+img {
+  float: right;
+}
+footer {
+  clear: both;
+  text-align: center;
+}
+p {
+  color: #e4e9f5;
+  text-align: center;
+  border: 5px solid rgba(209, 188, 89, 0.5);
+  cursor: pointer;
+}
+
+p {
+  color: #c8dcf1;
+  /* text-decoration: line-through; */
+  /* text-transform: uppercase; */
+  line-height: 60px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 180%;
+  font-family: 'Poiret One', sans-serif;
+}
+
+
+.webtext:first-child {
+  border: 5px dashed #D2ED7A;
+}
+.active {
+  color: #fff;
+}
+
+#div1:hover {
+  background-color: rgba(255, 222, 93, 0.3);
+}
+
+#div2:hover {
+  background-color: rgba(15, 50, 27, 0.5);
+}
