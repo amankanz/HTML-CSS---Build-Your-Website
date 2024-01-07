@@ -1,0 +1,36 @@
+.grid-contenant {
+  display: grid; /*creates block level grid items*/
+  /* grid-template-columns: auto auto auto auto; creates four equal columns for the grid-items vertically  */
+  grid-template-columns: repeat(3, auto);
+  max-width: 900px;
+  margin: 0 auto; /*grid-contenant centered on the page*/
+  /* gap: 20px; set row-gap and column-grap among grid-items */
+  /* column-gap: 10px; set column-space between the grid-items */
+  /* row-gap: 20px; set row-space between the grid-items */
+  /* gap: 20px 10px; set row-ap and column-gap on grid-items */
+  /* gap: 10px; set row-gap and colum-gap */
+  grid-template-rows: 150px auto 300px; /*set the sizes of the grid container rows */
+}
+
+.grid-items {
+  background-color: rgb(96, 139, 231);
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.item1 {
+  /* grid-column-start: 1; Default grid-item1 starts from grid-column-line-1 */
+  /* grid-column-start: 2; Default grid-item1 starts from grid-column-line-2 */
+  /* grid-column-end: 3; set item1 to end to grid-line-3 */
+  /* grid-column-end: 4; set item1 to end to grid-line-3 */
+  /* grid-row-start: 3; set item1 to start from grid-row-line-3 */
+}
+
+/* .item2 {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 3;
+} */
