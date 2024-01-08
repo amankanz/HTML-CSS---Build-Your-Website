@@ -1,0 +1,8 @@
+.col {
+  background-color: gray;
+  border: 3px solid rgb(216, 135, 29);
+}
+
+.col-md-auto {
+  background-color: burlywood;
+}
