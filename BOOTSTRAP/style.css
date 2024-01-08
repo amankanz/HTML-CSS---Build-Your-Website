@@ -1,0 +1,7 @@
+.btn-warning {
+  background-color: rgb(226, 114, 114);
+}
+.btn-warning:hover {
+  background-color: red;
+  color: white;
+}
