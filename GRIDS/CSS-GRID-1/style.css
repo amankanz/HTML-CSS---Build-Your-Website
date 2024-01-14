@@ -1,0 +1,58 @@
+.container {
+  display: grid;
+  gap: 10px;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-columns: repeat(auto-fill, 300px); */
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); /*Recommended way*/
+  grid-template-rows: 1fr;
+  /* justify-items: center; */
+  /* align-items: start; */
+}
+
+.green {
+  /* grid-column-start: 1; */
+  /* grid-column-end: 4; */
+  /* grid-column: 1/3; */
+  /* grid-column: 1/-1; -1 signifies the end of the view port */
+  grid-column: span 2; /* span across 2 grids*/
+  grid-row: 1/3;
+}
+.zone {
+  cursor: pointer;
+  /* display: block; */
+  text-align: center;
+  font-size: 7em;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  transition: all .3s linear;
+  height: auto;
+  width: auto;
+}
+
+.zone:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px inset;
+}
+
+.green {
+  background: #56b870;
+  background: -moz-linear-gradient(top, #56b870 0%, #a5c956);
+  background: linear-gradient(top, #56b870 0%, #a5c956);
+}
+.red {
+  background: #ff4629;
+}
+.bleu {
+  background: #5d4aff;
+}
+.yellow {
+  background: #ffd81a;
+}
+.purple {
+  background: #e27cfb;
+}
+.brown {
+  background: #fdb97e;
+}
