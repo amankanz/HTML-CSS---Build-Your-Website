@@ -16,6 +16,8 @@
   /* grid-column: 1/-1; -1 signifies the end of the view port */
   grid-column: span 2; /* span across 2 grids*/
   grid-row: 1/3;
+  /* justify-self: start; */
+  align-self: end;
 }
 .zone {
   cursor: pointer;
