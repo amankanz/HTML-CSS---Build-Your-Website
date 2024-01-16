@@ -78,10 +78,11 @@ li a {
   width: 100%;
   font-size: 3.5rem;
   height: 4em;
-
+  transition: all .3s linear;
 }
 .project-items:hover {
-  transform: rotate(-6deg);
+  transform: rotate(-5deg);
+  box-shadow: rgba(43, 42, 42, 0.5) 0px 15px 10px inset;
 }
 .green {
   background: #56b870;
